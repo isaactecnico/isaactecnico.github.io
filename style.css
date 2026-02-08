@@ -32,20 +32,31 @@ p {
     margin: auto;
     background-color: #564193;
 }
-/* Com border customizado */
-iframe {
+/* Layout dos vídeos: iframes lado a lado */
+.container-videos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.container-videos p {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.container-videos iframe {
+    flex: 0 1 45%;
+    max-width: 640px;
+    min-width: 280px;
+    height: 360px;
     border: 2px solid #333;
-    border-radius: 8px;  /* Cantos arredondados */
-}
-
-/* Ou apenas especificar a cor */
-iframe {
-    border: 1px solid #ccc;
-}
-
-/* Remover completamente */
-iframe {
-    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
 }
 
 footer {
