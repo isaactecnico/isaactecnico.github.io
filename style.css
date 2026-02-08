@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -12,3 +12,19 @@ body {
     background-color: #cfcefe;
     font-family: "Sonic Gameworld UI", sans-serif;
 } 
+
+/* Com border customizado */
+iframe {
+    border: 2px solid #333;
+    border-radius: 8px;  /* Cantos arredondados */
+}
+
+/* Ou apenas especificar a cor */
+iframe {
+    border: 1px solid #ccc;
+}
+
+/* Remover completamente */
+iframe {
+    border: none;
+}
