@@ -3,16 +3,35 @@
   padding: 0;
 }
 
+header {
+    background-color: #000000;
+    color: #000000;
+    padding: 50px;
+    margin: auto;
+    text-align: left;
+}
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
 @font-face {
     font-family: "Sonic Gameworld UI";
       src: url("fontes/sonic-gameworld-ui.woff2"); format("woff2");
 }
 
 body {
-    background-color: #cfcefe;
+    background-color: #846ddb;
     font-family: "Sonic Gameworld UI", sans-serif;
 } 
 
+p {
+    color: #000000;
+    font-size: 40px;
+    padding: 50px;
+    margin: auto;
+    background-color: #564193;
+}
 /* Com border customizado */
 iframe {
     border: 2px solid #333;
@@ -27,4 +46,11 @@ iframe {
 /* Remover completamente */
 iframe {
     border: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
