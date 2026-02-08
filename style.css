@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "Sonic Gameworld UI";
+      src: url("fontes/sonic-gameworld-ui.woff2"); format("woff2");
+}
+
+body {
+    background-color: #cfcefe;
+    font-family: "Sonic Gameworld UI", sans-serif;
+} 
